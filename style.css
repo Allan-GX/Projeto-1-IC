@@ -30,14 +30,13 @@ html {
     padding: 10px;
 }
 
-.conteiner{
+.conteiner1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0.625rem;
     gap: 0.625rem;
     align-content: center;
     justify-content: center;
-   
 }
 
 .conteiner-grid{
@@ -47,6 +46,7 @@ html {
     margin: 20px;
     align-self: center;
     justify-self: center;
+    font-size: 22px;
 }
 
 img, video{
