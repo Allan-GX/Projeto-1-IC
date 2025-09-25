@@ -3,7 +3,33 @@ body {
     padding: 0px;
     width: 100vw;
     height: 100vh;
+    background-color: black;
+    color: white
+
 }
+
+h1 {
+    font-size: 36px;   
+    color: white;      
+}
+
+h2 {
+    font-size: 28px;   
+    color: white;
+}
+
+p, span {
+    font-size: 20px;   
+    line-height: 1.5;  
+}
+
+
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 
 html {
     overflow-x:auto;
@@ -14,21 +40,40 @@ html {
 .header{
     display: flex;
     width: 100%;
-    padding: 8px 16px 8px 16px;
+    padding: 20px;
     margin: 0 auto;
     margin-bottom: 1rem;
-    background-color: rgb(192, 143, 105);
+    background-color: green;
+    color: white;
     flex-direction: column;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#frase-efeito{
-    width: max-content;
-    color: white;
-    background-color: rgb(162, 8, 8);
-    border-radius: 24px;
-    padding: 10px;
+
+.header h1 {
+    font-family: 'Kalnia Glaze', serif;
+    font-size: 48px; 
+    margin: 0 0 10px 0;         
 }
+
+.header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+
+
+
+#frase-efeito{
+    color: white;
+    padding: 8px 16px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 
 .conteiner1{
     display: grid;
@@ -44,10 +89,32 @@ html {
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    align-self: center;
-    justify-self: center;
-    font-size: 22px;
+    text-align: center; 
+    font-size: 18px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
+
+.conteiner-grid img {
+    width: 250px;       
+    height: 200px;     
+    object-fit: cover; 
+    border-radius: 12px; 
+    margin-bottom: 10px; /
+}
+
+
+
+.conteiner-grid h3 {
+    margin: 5px 0; 
+    font-size: 22px;
+    color: yellow;
+
+}
+
+
+
+
 
 img, video{
     width: 21.875rem;
@@ -75,13 +142,14 @@ img, video{
     justify-content: center;
     align-items: center;
     font-size: 26px;
+    color: blue;
 }
 
 .rodape {
-    background-color: black;
-    color:aliceblue;
+    background-color:black;
+    color:gray;
     text-align: center;
     padding: 1.25rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14;
 } 
